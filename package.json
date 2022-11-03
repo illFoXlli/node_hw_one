@@ -1,0 +1,29 @@
+{
+  "name": "node_hw_one",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/illFoXlli/node_hw_one.git"
+  },
+  "author": "ruden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/illFoXlli/node_hw_one/issues"
+  },
+  "homepage": "https://github.com/illFoXlli/node_hw_one#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "commander": "^9.4.1",
+    "nanoid": "3.3.4",
+    "yargs": "^17.6.0"
+  }
+}
